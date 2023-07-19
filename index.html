@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNW</title>
+    <script src="https://kit.fontawesome.com/a54d2cbf95.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+
+    <div class="nav-container">
+        <nav>
+            <ul class="mobile-nav">
+                <li>
+                    <div class="menu-icon-container">
+                        <div class="menu-icon">
+                            <span class="line-1"></span>
+                            <span class="line-2"></span>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="#" class="link-logo"></a>
+                </li>
+
+                <li>
+                    <a href="" class="link-bag"></a>
+                </li>
+            </ul>
+
+            <ul class="desktop-nav">
+                <li>
+                    <a href="#" class="link-logo"></a>
+                </li>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#news">News</a>
+                </li>
+                <li>
+                    <a href="#aboutus">About</a>
+                </li>
+                <li>
+                    <a href="#crew">Crew</a>
+                </li>
+                <li>
+                    <a href="#connect">Connect</a>
+                </li>
+                <li>
+                    <a href="#" class="link-search"></a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- End of navigation menu items -->
+
+        <div class="search-container hide">
+            <div class="search-bar">
+                <form action="">
+                    <input type="text" placeholder="DAS NEUE WOHNZIMMER">
+                </form>
+            </div>
+            <div class="link-close"></div>
+
+            <div class="quick-links">
+                <h2>Our Current Set List</h2>
+                <ul>
+                    <li>
+                        <a href="https://open.spotify.com/intl-de/track/5FVd6KXrgO9B3JPmC8OPst?si=cfa4e99945584051" target="_blank">Do I Wanna Know? ~ Arctic Monkey</a>
+                    </li>
+                    <li>
+                        <a href="https://open.spotify.com/intl-de/track/3MjrueDQKVr6xDDseZwhEd?si=c989820aff8f49e5" target="_blank">Figure It Out ~ Royal Blood</a>
+                    </li>
+                    <li>
+                        <a href="https://open.spotify.com/intl-de/track/21hbZ0yllYOoXEbiFDYMSI?si=644cb620129843e7" target="_blank">18 ~ Anarbor</a>
+                    </li>
+                    <li>
+                        <a href="https://open.spotify.com/intl-de/track/2DrGEaqoruCSn0FffWCf5O?si=60275a8f28c04cd6" target="_blank">A-Punk ~ Vampire Weekend</a>
+                    </li>
+                    <li>
+                        <a href="https://open.spotify.com/intl-de/track/7BHPGtpuuWWsvE7cCaMuEU?si=4568b393149b402c" target="_blank">Naive ~ The Kooks</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="mobile-search-container">
+        </div>
+    </div>
+    <section>
+        <div class="background" id="home">
+            <div class="container">
+                <div class="groslogo">
+                    <img src="assets/DNW_Logo.png">
+                </div>
+                <div class="upcoming">Upcoming Event</div>
+                <div class="countdown" onclick="location.href='#news'">
+                    <div class="more">More</div>
+                    <div class="box">
+                        <div class="countdown">
+                            <div class="countdown-item">
+                                <span id="days"></span>
+                                <p>Days</p>
+                            </div>
+                            <div class="countdown-item">
+                                <span id="hours"></span>
+                                <p>Hours</p>
+                            </div>
+                            <div class="countdown-item">
+                                <span id="minutes"></span>
+                                <p>Minutes</p>
+                            </div>
+                            <div class="countdown-item">
+                                <span id="seconds"></span>
+                                <p>Seconds</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#news" class="scrolldown" style="--color: skyblue">
+                <div class="chevrons">
+                    <div class="chevrondown"></div>
+                    <div class="chevrondown"></div>
+                </div>
+            </a>
+        </div>
+        <a href="#" class="to-top">
+            <i class="fas fa-chevron-up"></i>
+        </a>
+        <div class="news" id="news">
+            <div class="ueberschrift" data-aos="zoom-in ">
+                <h1>News</h1>
+            </div>
+            <div class="flex-container">
+                <div class="flex-item" data-aos="slide-right">
+                    <h5>Upcoming Event</h5>12. Juli 19:00<br>Kiwi Ybbsitz
+                    <!--<a href="https://codingartistweb.com/ " class="btn ">Button</a>-->
+                </div>
+                <div class="flex-item" data-aos="slide-right">
+                    <h5>Latest Song</h5>Life is a Highway
+                </div>
+                <div class="flex-item" data-aos="slide-right">
+                    <h5>Weitere Gigs</h5>München<br>Berlin
+                </div>
+            </div>
+        </div>
+        <div class="messages " id="aboutus">
+            <h2 data-aos="zoom-in ">About Us</h2>
+            <div class="iup ">
+                <div class="picture ">
+                    <img src="assets\DNW_Logo_chat.png ">
+                </div>
+                <a href="https://www.instagram.com/dasneuewohnzimmer/ " target="_blank " class="Name " text-decoration="none ">DNW &gt;</a>
+            </div>
+            <div class="imessage ">
+                <h6 data-aos="fade-up ">Fr. 17. Dez. 2021, 20:35</h6>
+                <p class="from-them " data-aos="fade-up ">&ldquo;Das Neue Wohnzimmer&rdquo; gründete sich wie jede gute Band - in einem Wohnzimmer</p>
+                <p class="from-me " data-aos="fade-up ">Nämlich in einem Wohnzimmer in Ybbsitz</p>
+                <p class="from-them margin-b_one " data-aos="fade-up ">Dort trafen am 17. Dezember 2021 fünf ambitionierte Musiker*Innen zusammen, um einen einzigen Auftritt zu planen. Schnell wurde jedoch klar, dass es nicht bei diesem einen Auftritt bleiben soll.</p>
+                <p class="from-me no-tail emoji " data-aos="fade-up ">👍🏻</p>
+                <p class="from-me margin-b_one " data-aos="fade-up ">Das Neue Wohnzimmer (DNW) war geboren.</p>
+                <h6 data-aos="fade-up ">Mi. 11. Mai 2022, 14:47</h6>
+                <p class="from-them margin-b_one " data-aos="fade-up ">Daraufhin wurde das Hafnerhaus in Ybbsitz von der Gemeinde zur Verfügung gestellt</p>
+                <p class="from-them " data-aos="fade-up ">Dieses wird seitdem als Proberaum genutzt</p>
+                <p class="from-me no-tail emoji " data-aos="fade-up ">👍🏻</p>
+                <h6 data-aos="fade-up ">Sa. 18. Juni 2022, 19:12</h6>
+                <p class="from-me " data-aos="fade-up ">Ihr fulminantes Debüt feierte DNW beim Ferraculum vor zirka 200 begeisterten Fans.</p>
+                <p class="from-them no-tail emoji " data-aos="fade-up ">🥳</p>
+                <p class="from-them margin-b_one " data-aos="fade-up ">Weitere zahlreiche Auftritte folgten und zukünftige Gigs sind auch schon geplant.</p>
+                <p class="from-me margin-b_one " data-aos="fade-up ">Das derzeitige musikalische Repertoire besteht aus verschiedensten Covernummern, von:</p>
+                <p class="from-them margin-b_one " data-aos="fade-up ">•Popsongs<br>•Punk-Rock Nummern<br>•Indie-Lieder</p>
+                <h6 data-aos="fade-up ">Heute, 12:54</h6>
+                <p class="from-me margin-b_one " data-aos="fade-up ">Eigene Tracks sind derzeit in der Entstehungsphase</p>
+                <p class="from-them margin-b_one " data-aos="fade-up ">Was die Zukunft sonst noch bringt, ist noch offen.</p>
+                <p class="from-me margin-b_one " data-aos="fade-up ">Aber eines ist sicher:</p>
+                <p class="from-them margin-b_one " data-aos="fade-up ">DAS NEUE WOHNZIMMER - BALD AUCH IN DEINEM WOHNZIMMER!</p>
+                <p class="from-me no-tail emoji " data-aos="fade-up ">🥳🎉🎊</p>
+
+            </div>
+        </div>
+        <div class="profiles " id="crew">
+            <h1 data-aos="zoom-in ">Crew</h1>
+            <div class="grid ">
+                <div class="grid-item" data-aos="slide-right" data-aos-duration="3000 " data-aos-delay="200">
+                    <div class="card ">
+                        <div class="img ">
+                            <img src="assets/Leon.PNG " alt="Leon ">
+                        </div>
+                        <div class="details ">
+                            <div class="name ">Leon Streicher</div>
+                            <div class="job ">Drums</div>
+                        </div>
+                        <div class="media-icons ">
+                            <a href="# "><i class="fab fa-facebook-f "></i></a>
+                            <a href="# "><i class="fab fa-twitter "></i></a>
+                            <a href="https://www.instagram.com/leon_streicher/ " target="_blank "><i class="fab fa-instagram "></i></a>
+                            <a href="# "><i class="fab fa-youtube "></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item" data-aos="slide-right" data-aos-duration="3000" data-aos-delay="150">
+                    <div class="card ">
+                        <div class="img ">
+                            <img src="assets/Lissi.PNG " alt="Lissi ">
+                        </div>
+                        <div class="details ">
+                            <div class="name ">Elisabeth Tanzer</div>
+                            <div class="job ">Keys, Vocals</div>
+                        </div>
+                        <div class="media-icons ">
+                            <a href="# "><i class="fab fa-facebook-f "></i></a>
+                            <a href="# "><i class="fab fa-twitter "></i></a>
+                            <a href="https://www.instagram.com/lissi.tanzer/ " target="_blank "><i class="fab fa-instagram "></i></a>
+                            <a href="# "><i class="fab fa-youtube "></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item " data-aos="slide-right" data-aos-duration="3000 " data-aos-delay="100">
+                    <div class="card ">
+                        <div class="img ">
+                            <img src="assets/Ylva.PNG " alt=">Ylva">
+                        </div>
+                        <div class="details">
+                            <div class="name">Ylva Hintersteiner</div>
+                            <div class="job">Bass, Guitar</div>
+                        </div>
+                        <div class="media-icons">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/ylva_hinterst/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item" data-aos="slide-right" data-aos-duration="3000" data-aos-delay="50">
+                    <div class="card">
+                        <div class="img">
+                            <img src="assets/Pia.PNG" alt="Pia">
+                        </div>
+                        <div class="details">
+                            <div class="name">Pia Aigner</div>
+                            <div class="job">Vocals, Bass</div>
+                        </div>
+                        <div class="media-icons">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/pia_pirate/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item" data-aos="slide-right" data-aos-duration="3000">
+                    <div class="card">
+                        <div class="img">
+                            <img src="assets/Moritz.PNG" alt="Moritz">
+                        </div>
+                        <div class="details">
+                            <div class="name">Moritz Riegler</div>
+                            <div class="job">Lead Guitar, Bass</div>
+                        </div>
+                        <div class="media-icons">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/moritz.riegler/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="low" id="connect">
+            <h1 data-aos="zoom-in ">Connect</h1>
+            <div class="grid-2">
+                <div class="carso" data-aos="slide-right">
+                    <div class="icon">
+                        <svg height="50" width="50" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-instagram" viewbox="0 0 16 16">
+                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                          </svg>
+                    </div>
+                    <strong> Instagram
+                    </strong>
+                    <div class="carso__body">
+                        Get connected with us via Instagram
+                    </div>
+                    <button type="button"><a href="https://www.instagram.com/dasneuewohnzimmer" target="_blank">Slide in our dms</a></button>
+                </div>
+                <div class="carso" data-aos="slide-right">
+                    <div class="icon">
+                        <svg height="50" width="50" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-envelope-fill" viewbox="0 0 16 16">
+                            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+                          </svg>
+                    </div>
+                    <strong> E-Mail
+                    </strong>
+                    <div class="carso__body">
+                        Write us an E-Mail to collaborate with us
+                    </div>
+                    <button type="button"><a href="mailto:dasneuewohnzimmer@gmail.com" target="_blank">Write us</a></button>
+                </div>
+                <div class="carso" data-aos="slide-right">
+                    <div class="icon">
+                        <svg height="50" width="50" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-telephone-fill" viewbox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                          </svg>
+                    </div>
+                    <strong> Phone
+                    </strong>
+                    <div class="carso__body">
+                        Call us to get in touch with us
+                    </div>
+                    <button type="button"><a href="tel:+436509830929" target="_blank">Talk to us</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="social-icons">
+                <a href="https://open.spotify.com/playlist/1ohTWzql6q9I65CypzFh4A" target="_blank"><i class="fab fa-spotify"></i></a>
+                <a href="https://twitter.com/official_dnw" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/dasneuewohnzimmer/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://soundcloud.com/user-337373155" target="_blank"><i class="fab fa-soundcloud"></i></a>
+                <a href="https://www.instagram.com/dasneuewohnzimmer/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="copyright">Copyright © 2023 Das Neue Wohnzimmer. All rights reserved.</div>
+        </div>
+        <!--<div class="contino">
+            <div class="screen">
+                <div class="screen-header">
+                    <div class="screen-header-left">
+                        <div class="screen-header-button close"></div>
+                        <div class="screen-header-button maximize"></div>
+                        <div class="screen-header-button minimize"></div>
+                    </div>
+                    <div class="screen-header-right">
+                        <div class="screen-header-ellipsis"></div>
+                        <div class="screen-header-ellipsis"></div>
+                        <div class="screen-header-ellipsis"></div>
+                    </div>
+                </div>
+                <div class="screen-body">
+                    <div class="screen-body-item left">
+                        <div class="app-title">
+                            <span>CONTACT</span>
+                            <span>US</span>
+                        </div>
+                    </div>
+                    <div class="screen-body-item">
+                        <div class="app-form">
+                            <div class="app-form-group">
+                                <input class="app-form-control" placeholder="NAME">
+                            </div>
+                            <div class="app-form-group">
+                                <input class="app-form-control" placeholder="EMAIL">
+                            </div>
+                            <div class="app-form-group">
+                                <input class="app-form-control" placeholder="CONTACT NO">
+                            </div>
+                            <div class="app-form-group message">
+                                <input class="app-form-control" placeholder="MESSAGE">
+                            </div>
+                            <div class="app-form-group buttons">
+                                <button class="app-form-button">CANCEL</button>
+                    <button class="app-form-button">SEND</button>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>-->
+    </section>
+    <script src="main.js"></script>
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 3000,
+            once: false,
+        });
+    </script>
+</body>
+
+</html>
