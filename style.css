@@ -17,7 +17,7 @@
 body {
     font-family: "Inter", sans-serif;
     font-weight: 300;
-    overflow: hidden;
+    overflow-y: scroll;
 }
 
 
@@ -746,8 +746,6 @@ header {
 
 .section {
     position: relative;
-    width: 1000px;
-    overflow: hidden;
 }
 
 .background {
