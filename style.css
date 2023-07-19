@@ -746,6 +746,7 @@ header {
 
 .section {
     position: relative;
+    width: 100%;
 }
 
 .background {
