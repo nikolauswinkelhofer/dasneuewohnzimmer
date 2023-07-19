@@ -747,6 +747,7 @@ header {
 .section {
     position: relative;
     width: 1000px;
+    overflow: hidden;
 }
 
 .background {
