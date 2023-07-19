@@ -25,6 +25,7 @@ body {
 
 .nav-container {
     background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(3px);
     height: 44px;
     z-index: 300;
     position: fixed;
